@@ -1,7 +1,8 @@
 {
   "name": "server15745",
   "scripts": {
-    "dev": "bun run --hot src/index.ts"
+    "start": "bun src/index.ts",
+    "install":"bun i --no-save"    
   },
   "dependencies": {
     "hono": "^4.6.14"
